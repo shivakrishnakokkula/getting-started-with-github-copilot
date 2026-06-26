@@ -142,3 +142,56 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participants list styling */
+.participants {
+  margin-top: 12px;
+}
+
+.participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a237e;
+}
+
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.participants-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #444;
+  background: #f4f6fb;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.participants-list li span {
+  flex: 1;
+}
+
+.no-participants {
+  font-style: italic;
+  color: #777;
+  margin-top: 8px;
+}
+
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #a00;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 4px;
+}
+
+.remove-participant:hover {
+  color: #d00;
+}
